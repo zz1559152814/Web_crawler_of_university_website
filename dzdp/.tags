@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTOTHROTTLE_ENABLED	dzdp/settings.py	/^AUTOTHROTTLE_ENABLED = True$/;"	v
+AUTOTHROTTLE_START_DELAY	dzdp/settings.py	/^AUTOTHROTTLE_START_DELAY = 5$/;"	v
+BOT_NAME	dzdp/settings.py	/^BOT_NAME = 'dzdp'$/;"	v
+Cinema_mes	dzdp/items.py	/^class Cinema_mes(scrapy.Item):$/;"	c
+City_mes	dzdp/items.py	/^class City_mes(scrapy.Item):$/;"	c
+DzdpPipeline	dzdp/pipelines.py	/^class DzdpPipeline(object):$/;"	c
+MovieSpider	dzdp/spiders/dzdp_spider.py	/^class MovieSpider(CrawlSpider):$/;"	c
+Movie_mes	dzdp/items.py	/^class Movie_mes(scrapy.Item):$/;"	c
+NEWSPIDER_MODULE	dzdp/settings.py	/^NEWSPIDER_MODULE = 'dzdp.spiders'$/;"	v
+RANDOMIZE_DOWNLOAD_DELAY	dzdp/settings.py	/^RANDOMIZE_DOWNLOAD_DELAY = True$/;"	v
+REDIRECT_ENABLED	dzdp/settings.py	/^REDIRECT_ENABLED = False$/;"	v
+SPIDER_MODULES	dzdp/settings.py	/^SPIDER_MODULES = ['dzdp.spiders']$/;"	v
+address	dzdp/items.py	/^	address = scrapy.Field()$/;"	v	class:Cinema_mes
+allow_domains	dzdp/spiders/dzdp_spider.py	/^	allow_domains = ['meituan.com']$/;"	v	class:MovieSpider
+area	dzdp/items.py	/^	area         = scrapy.Field()$/;"	v	class:Movie_mes
+cinema_list	dzdp/items.py	/^	cinema_list = []$/;"	v	class:City_mes
+city_cinema_parse1	dzdp/spiders/dzdp_spider.py	/^	def city_cinema_parse1(self,response):$/;"	m	class:MovieSpider
+city_name	dzdp/items.py	/^	city_name = scrapy.Field()$/;"	v	class:City_mes
+diector	dzdp/items.py	/^	diector      = scrapy.Field()$/;"	v	class:Movie_mes
+grade	dzdp/items.py	/^	grade = scrapy.Field()$/;"	v	class:Cinema_mes
+movie_list	dzdp/items.py	/^	movie_list = []$/;"	v	class:Cinema_mes
+name	dzdp/items.py	/^	name         = scrapy.Field()$/;"	v	class:Movie_mes
+name	dzdp/items.py	/^	name = scrapy.Field()$/;"	v	class:Cinema_mes
+name	dzdp/spiders/dzdp_spider.py	/^	name = 'dzdp'$/;"	v	class:MovieSpider
+parse	dzdp/spiders/dzdp_spider.py	/^	def parse(self,response):$/;"	m	class:MovieSpider
+price	dzdp/items.py	/^	price        = scrapy.Field()$/;"	v	class:Movie_mes
+process_item	dzdp/pipelines.py	/^    def process_item(self, item, spider):$/;"	m	class:DzdpPipeline
+release_time	dzdp/items.py	/^	release_time = scrapy.Field()$/;"	v	class:Movie_mes
+score	dzdp/items.py	/^	score        = scrapy.Field()$/;"	v	class:Movie_mes
+star	dzdp/items.py	/^	star         = scrapy.Field()$/;"	v	class:Movie_mes
+start_urls	dzdp/spiders/dzdp_spider.py	/^	start_urls = ['http:\/\/www.meituan.com\/index\/changecity\/initiative']$/;"	v	class:MovieSpider
+time	dzdp/items.py	/^	time         = scrapy.Field()$/;"	v	class:Movie_mes
+type	dzdp/items.py	/^	type         = scrapy.Field()$/;"	v	class:Movie_mes
+version	dzdp/items.py	/^	version      = scrapy.Field()$/;"	v	class:Movie_mes

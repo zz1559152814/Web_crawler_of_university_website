@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTOTHROTTLE_ENABLED	meituan/settings.py	/^AUTOTHROTTLE_ENABLED = True$/;"	v
+AUTOTHROTTLE_START_DELAY	meituan/settings.py	/^AUTOTHROTTLE_START_DELAY = 5$/;"	v
+BOT_NAME	meituan/settings.py	/^BOT_NAME = 'meituan'$/;"	v
+Cinema_mes	meituan/items.py	/^class Cinema_mes(scrapy.Item):$/;"	c
+City_mes	meituan/items.py	/^class City_mes(scrapy.Item):$/;"	c
+ITEM_PIPELINES	meituan/settings.py	/^ITEM_PIPELINES = {$/;"	v
+MeituanPipeline	meituan/pipelines.py	/^class MeituanPipeline(object):$/;"	c
+MovieSpider	meituan/spiders/dzdp_spider.py	/^class MovieSpider(CrawlSpider):$/;"	c
+Movie_mes	meituan/items.py	/^class Movie_mes(scrapy.Item):$/;"	c
+NEWSPIDER_MODULE	meituan/settings.py	/^NEWSPIDER_MODULE = 'meituan.spiders'$/;"	v
+RANDOMIZE_DOWNLOAD_DELAY	meituan/settings.py	/^RANDOMIZE_DOWNLOAD_DELAY = True$/;"	v
+REDIRECT_ENABLED	meituan/settings.py	/^REDIRECT_ENABLED = False$/;"	v
+SPIDER_MODULES	meituan/settings.py	/^SPIDER_MODULES = ['meituan.spiders']$/;"	v
+__init__	meituan/pipelines.py	/^    def __init__(self):$/;"	m	class:MeituanPipeline
+address	meituan/items.py	/^	address = scrapy.Field()$/;"	v	class:Cinema_mes
+allow_domains	meituan/spiders/dzdp_spider.py	/^	allow_domains = ['meituan.com']$/;"	v	class:MovieSpider
+area	meituan/items.py	/^	area         = scrapy.Field()$/;"	v	class:Movie_mes
+cinema_list	meituan/items.py	/^	cinema_list = []$/;"	v	class:City_mes
+city_name	meituan/items.py	/^	city_name = scrapy.Field()$/;"	v	class:City_mes
+diector	meituan/items.py	/^	diector      = scrapy.Field()$/;"	v	class:Movie_mes
+grade	meituan/items.py	/^	grade = scrapy.Field()$/;"	v	class:Cinema_mes
+movie_list	meituan/items.py	/^	movie_list = []$/;"	v	class:Cinema_mes
+name	meituan/items.py	/^	name         = scrapy.Field()$/;"	v	class:Movie_mes
+name	meituan/items.py	/^	name = scrapy.Field()$/;"	v	class:Cinema_mes
+name	meituan/spiders/dzdp_spider.py	/^	name = 'meituan'$/;"	v	class:MovieSpider
+parse	meituan/spiders/dzdp_spider.py	/^	def parse(self,response):$/;"	m	class:MovieSpider
+price	meituan/items.py	/^	price        = scrapy.Field()$/;"	v	class:Movie_mes
+process_item	meituan/pipelines.py	/^    def process_item(self, city_mes, spider):$/;"	m	class:MeituanPipeline
+release_time	meituan/items.py	/^	release_time = scrapy.Field()$/;"	v	class:Movie_mes
+score	meituan/items.py	/^	score        = scrapy.Field()$/;"	v	class:Movie_mes
+star	meituan/items.py	/^	star         = scrapy.Field()$/;"	v	class:Movie_mes
+start_urls	meituan/spiders/dzdp_spider.py	/^	start_urls = ['http:\/\/www.meituan.com\/index\/changecity\/initiative']$/;"	v	class:MovieSpider
+time	meituan/items.py	/^	time         = scrapy.Field()$/;"	v	class:Movie_mes
+type	meituan/items.py	/^	type         = scrapy.Field()$/;"	v	class:Movie_mes
+version	meituan/items.py	/^	version      = scrapy.Field()$/;"	v	class:Movie_mes
